@@ -54,7 +54,7 @@ import java.util.*;
     h3 = "berubah menjadi saldo dana";
     System.out.println("Variabel update\n");
     System.out.print(h1);
-    System.out.printf("\n%10s \n%15s",h2,h3);
+    System.out.printf("\n%s \n%s",h2,h3);
     
    }
  }
