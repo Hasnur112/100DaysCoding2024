@@ -1,0 +1,56 @@
+import java.util.Scanner;
+class Day7 {
+    public static void main(String args[]) {
+      Scanner ip = new Scanner(System.in);
+      System.out.println("Day7 bermain Logika");
+      System.out.println("Soal Swapping\nDiketahui\n1.s1 = ok fine\n2.rumah = my home\n3.jalan = gang\n4.kipas = angin\n5.koran = kabar");
+      System.out.println("Pertanyaan output mana-kah yang akan keluar jika yang ditanyakan adalah output dari rumah?");
+      System.out.println("Diketahui urutan swapping sebagai berikut\n1.s1 = kipas \n2.kipas = koran\n3.koran = jalan\n4.jalan = rumah\n5.rumah = kipas");
+
+      String s1 = "ok fine";
+      String rumah = "my home";
+      String jalan = "gang";
+      String kipas = "angin";
+      String koran = "kabar";
+
+      System.out.println("Pilih jawaban:");
+      System.out.println("A. my home");
+      System.out.println("B. gang");
+      System.out.println("C. angin");
+      System.out.println("D. kabar");
+      System.out.println("------------");
+      //kita buat scanner untuk pemasukan input dari user menggunakn char
+      char p = ip.next().charAt(0);
+      String jawab = jawaban(p);//kita panggil method switch yang kita buat 
+      //kita buat pertukaran nilainya atau swpping
+      s1 = kipas;
+      kipas = koran;
+      koran = jalan;
+      jalan = rumah;
+      rumah = kipas;
+      System.out.println("---------------------------");
+      System.out.println("Jawaban Anda: " + jawab);
+      System.out.println("Output rumah: " + rumah);
+      System.out.println("See you later"); 
+  }
+    public static String jawaban(char p){
+      String jawab ="";
+      switch (p) {
+          case 'A':
+              jawab = "my home";
+              break;
+          case 'B':
+              jawab = "gang";
+              break;
+          case 'C':
+              jawab = "angin";
+              break;
+          case 'D':
+              jawab = "kabar";
+              break;
+          default:
+              jawab = "masukan tidak valid";
+      }
+      return jawab;
+    }
+}
