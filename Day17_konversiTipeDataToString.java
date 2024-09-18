@@ -1,4 +1,4 @@
-public class Day16 {
+public class Day17 {
     public static void main(String args[]) {
         System.out.println("Konversi Tipe Data Primitif ke String");
         System.out.println("-----------------------------------");
