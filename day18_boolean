@@ -10,7 +10,7 @@
     boolean a = 3 > 10;
     System.out.println("apakah 3 lebih besar dari 10?: "+a);
     boolean b = 10 > 3; 
-    System.out.println("apakah 10 lebih kecil dari 3?: "+b);
+    System.out.println("apakah 10 lebih besar dari 3?: "+b);
     boolean c = 9+7 == 20;
     System.out.println("apakah 9+7 sama dengan 20?: "+c);
     boolean d = 2*5 == 10;
