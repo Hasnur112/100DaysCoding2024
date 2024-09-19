@@ -1,0 +1,19 @@
+ public class Day18
+ {
+   public static void main(String args[])
+   { 
+    System.out.println("Type data boolean");
+    boolean iya = true;
+    boolean tidak = false;
+    System.out.println("iya untuk: "+iya);
+    System.out.println("tidak untuk: "+tidak);
+    boolean a = 3 > 10;
+    System.out.println("apakah 3 lebih besar dari 10?: "+a);
+    boolean b = 10 > 3; 
+    System.out.println("apakah 10 lebih kecil dari 3?: "+b);
+    boolean c = 9+7 == 20;
+    System.out.println("apakah 9+7 sama dengan 20?: "+c);
+    boolean d = 2*5 == 10;
+    System.out.println("apakah 2*5 sama dengan 10?: "+d);
+   }
+ }
