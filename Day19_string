@@ -1,0 +1,12 @@
+ public class Day19 {
+   public static void main(String args[]) { 
+    System.out.println("String");
+    //deklarasi dan inisialisasi
+    String nama = "Hasnur";
+    String nim = "D0223509";
+    String alamat = "Wonomulyo";
+    //bikin data referensi nya ke biodata dengan menggabungkan string
+    String biodata = "Nama: "+nama+",Nim: "+  nim+"Alamat: "+alamat;
+    System.out.print(biodata);
+   }
+ }
