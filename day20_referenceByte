@@ -1,0 +1,19 @@
+public class Day20 {
+    public static void main(String args[]) {
+     // Deklarasi dan inisialisasi variabel Byte
+     Byte hari = 20;
+     System.out.println("Hari: " + hari);
+     System.out.println("--------------------------");
+
+     // Membuat objek Byte dengan konstruktor new Byte()
+     Byte hari2 = new Byte((byte) 20);
+     // Memanggil nilai Byte menggunakan byteValue()
+     System.out.println("Hari: " + hari2.byteValue());
+     System.out.println("--------------------------");
+
+     // Type casting dari int ke Byte
+     int h = 20;
+     Byte hari3 = (byte) h; // harus di konver ke byte dulu sebelum ke Byte
+     System.out.println("Hari: " + hari3);
+   }
+}
