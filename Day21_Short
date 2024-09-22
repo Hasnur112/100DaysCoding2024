@@ -1,0 +1,24 @@
+public class Day21 {
+    public static void main(String args[]) {
+        // Deklarasi dan inisialisasi variabel Short
+        short hari = 21;
+        System.out.println("Hari: " + hari);
+        System.out.println("--------------------------");
+
+        // Membuat objek Short dengan konstruktor new Short()
+        Short hari2 = new Short((short) 21);
+        // Memanggil nilai Short menggunakan shortValue()
+        System.out.println("Hari: " + hari2.shortValue());
+        System.out.println("--------------------------");
+        
+        // Type casting dari int ke Short
+        int h = 21;
+        Short hari3 = (short) h; // harus di konversi ke short dulu sebelum ke Short
+        System.out.println("Hari: " + hari3);
+        System.out.println("--------------------------");
+        
+        //konver to string 
+        String hari4 = String.valueOf(h);
+        System.out.println("Hari: "+h);
+    }
+}
