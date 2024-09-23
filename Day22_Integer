@@ -1,0 +1,17 @@
+ public class Day22 {
+   public static void main(String args[])
+    { 
+     //membuat type data reference menggunakan Integer
+     Integer populasi = 280730000; //280 juta jiwa
+     Integer populasi2 = 1481000; //1,481 juta jiwa
+     Integer populasi3 = 181000; //181 ribu jiwa
+     Integer populasi4 = 51665; //51 ribu jiwa
+     
+     //memanggil kluaran menggunakan printf
+     System.out.printf("JumLah penduduk di indonesia menurut data tahun 2023 berjumlah: %d jiwa\n",populasi);
+     System.out.printf("JumLah penduduk di sulawesi barat menurut data tahun 2023 berjumlah: %d jiwa\n",populasi2);
+     System.out.printf("JumLah penduduk di majene menurut data tahun 2023 berJumlah: %d jiwa\n ",populasi3);
+     System.out.printf("JumLah penduduk di wonomulyo menurut data tahun 2021 berjumlah: %d jiwa\n",populasi4);
+     System.out.println("---------------------------------------------")
+    }
+ }
