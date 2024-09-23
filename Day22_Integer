@@ -1,7 +1,7 @@
  public class Day22 {
    public static void main(String args[])
     { 
-     //membuat type data reference menggunakan Integer
+     //membuat type data reference Integer
      Integer populasi = 280730000; //280 juta jiwa
      Integer populasi2 = 1481000; //1,481 juta jiwa
      Integer populasi3 = 181000; //181 ribu jiwa
