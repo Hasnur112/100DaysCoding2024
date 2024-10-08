@@ -1,0 +1,25 @@
+import java.util.*;
+
+ // Compiler version JDK 11.0.2
+
+ public class Day37
+ {
+   public static void main(String args[])
+   { 
+    System.out.println("Operator penugasan");
+    int a,b,c;
+    a = 60;
+    b = 10;
+    System.out.println ("Nilai 1 = "+a);
+    System.out.println ("Nilai 2 = "+b);
+    //operator penuugasan modulo dan
+    a %= 3;
+    b %= 4;
+    c = a % b;
+    int d = c * 10;
+    System.out.println ("Hasil modulo antara niai1 dan 3 = "+a);
+    System.out.println ("Hssil modulo nilai2  dengan 4 = "+b);
+    System.out.println ("Hasil dari modulo nilai1 dan nilai2 = "+c);//0
+    System.out.println ("Hasil modulo nilai1 dan  2 dikali 1 = "+d);//0
+   }
+ }
