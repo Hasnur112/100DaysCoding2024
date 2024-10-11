@@ -1,0 +1,38 @@
+import java.util.Scanner;
+ public class Dcoder
+ {
+   public static void main(String args[])
+   {
+    Scanner ip = new Scanner(System.in);  
+    System.out.println("Operator\n+------------------------+");
+    //Deklarasi
+    System.out.print("Masukkan angka pertama = "); 
+    int a = ip.nextInt();
+    
+    System.out.print("Masukkan angka Kedua = ");
+    int b = ip.nextInt();
+    //Menampilkan inputan 
+    System.out.println("Angka pertama = "+a);
+    System.out.println("angka kedua = "+b);
+    
+    ///operator aritmatika
+    System.out.println("Angka pertama di tambah angka kedua = "+(a + b));
+    System.out.println("Angka pertama di kurang angka kedua = "+(a - b));
+    System.out.println("Angka pertama di tambah angka kedua dibagi 3 = "+(a + b) / 3);
+    System.out.println("Angka pertama di kali angka kedua = "+(a * b));
+    System.out.println("operasi modulo antara pertama dan angka kedua = "+(a % b)+("\n"));
+    //op aritmatika penugasan
+    System.out.println("+-------------------------------------------------------------------------+");
+    System.out.println ("Untuk nilai a akan ditambahkan 70\nUntuk nilai b akan dikalikan dengan2");
+    a += 70;
+    b *= 2;
+    //Operator perbandingan setelah operasi terakhir
+    System.out.println("True untuk benar\nFalse untuk Salah");
+    System.out.println("a lebih besar dari (>) b: " + (a > b)); 
+    System.out.println("a lebih kecil dari (<) b: " + (a < b)); 
+    System.out.println("a sama dengan (==) b: " + (a == b)); 
+    System.out.println("a tidak sama dengan (!=) b: " + (a != b)); 
+    System.out.println("a lebih besar dari atau sama dengan (>=) b: " + (a >= b)); 
+    System.out.println("a lebih kecil dari atau sama dengan (<=) b: " + (a <= b));
+   }
+ }
