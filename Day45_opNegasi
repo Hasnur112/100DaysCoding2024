@@ -1,0 +1,17 @@
+ public class Day45
+ {
+   public static void main(String args[])
+   { 
+    System.out.println("Operator logika negasi atau kebalikan");
+    
+    boolean a,b;
+    a = true;
+    b = false;
+    
+    System.out.println("a\t= "+a);
+    System.out.println("!a\t= "+!a+"\n");//kebalikan dari true
+    System.out.println("b\t= "+b);
+    System.out.println("!b\t= "+!b);//kebalikan dari false
+    
+   }
+ }
