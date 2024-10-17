@@ -1,0 +1,27 @@
+import java.util.Scanner; 
+
+public class Day46 {
+    public static void main(String args[]) {
+        Scanner ip = new Scanner(System.in); 
+        System.out.println("Percabangan if");
+        
+        System.out.print("Masukkan Sebuah angka\t:");
+        int a = ip.nextInt();
+        
+        System.out.print("Masukkan angka lagi\t\t:");
+        int b = ip.nextInt();
+        
+        //if else
+        if (a % 2 == 0 && b % 2 != 0) { 
+            System.out.printf("Angka %d adalah genap dan angka %d adalah ganjil\n", a, b);
+        } else if (a % 2 != 0 && b % 2 == 0) { 
+            System.out.printf("Angka %d adalah ganjil dan angka %d adalah genap\n", a, b);
+        } else if (a % 2 == 0 && b % 2 == 0) { 
+            System.out.printf("Angka %d adalah genap dan angka %d adalah genap\n", a, b);
+        } else {
+            System.out.println("Keduanya ganjil"); 
+        }
+
+        ip.close(); 
+    }
+}
