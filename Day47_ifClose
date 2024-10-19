@@ -1,0 +1,23 @@
+import java.util.Scanner;
+ public class Day47
+ {
+   public static void main(String args[])
+   {
+    Scanner ip = new Scanner(System.in);
+    System.out.print("Masukkan angka 1\t:");
+    int a = ip.nextInt();
+    System.out.print("Masukkan angka 2\t:");
+    int b = ip.nextInt();
+    System.out.print("Masukkan angka 2\t:");
+    int c = ip.nextInt();
+    
+    if(a > b && a > c){
+      System.out.printf("Nilai %d adalah yang terbesar",a);
+    }else if(b > a && b > c){
+      System.out.printf("Nilai %d adalah yang terbesar",b);
+    }else{
+      System.out.printf("Nilai %d adalah yang terbesar",c);
+    }
+    ip.close();
+   }
+ }
