@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class day51 {
+    public static void main(String[] args){
+        Scanner ip = new Scanner(System.in);
+        System.out.println ("Masukkan pilihan anda dari 2 pilihan berikut...");
+        System.out.println ("(1) Makan pil biru dan kamu akan memiliki kekayaan tidak terbatas namun kamu hanya memiliki sisa umur 2 tahun");
+        System.out.println("(2) makan pil merah dan kamu memiliki istri yang cantik dan baik serta anak yang sholeh namun kamu memiliki penyakit sehingga kamu tidak  bisa mencari nafkah untuk keluargamu");
+        
+        System.out.print("Masukkan pilihanmu = ");
+        int a = ip.nextInt();
+        
+        switch (a){
+            case 1:
+                System.out.println("Kamu memilih pill biru, selama 2 tahun kamu habiskan waktumu dengan berfoya foya dan membeli semua yang kamu bisa serta bersenang senang akan dunia, namun kamu dalam ketakutan akan kematian di hari hari terakhirmu menjelang kematian dan diakhir hayat mu kamu tersadar bahwa UANG tidak bisa membeli umur yang panjang dan kebahagiaan");
+                break;
+            case 2:
+                System.out.print("Kamu memilih pil merah , kamu sangat bahagia degan keluarga kecilmu, bulan hingga tahun terlewati kamu merasa sangat bahagia di setiap momen. namunn pada suatu ketika istri mu sudah lelah menanggung semua kebutuhan keluarga serta takut memikirkan anakmu yang kian beranjak dewasa tanpa bisa memastikan apakah dia akan memiliki pendidikan yang mumpuni, akhirnya istri dan anakmu meninggalkan mu untuk mencari masa depan yang lebih baik lagi. di akhir");
+                System.out.println(" hayatmu kamu merenunng, kebahgiaan ternyata juga membutuhkan uang.");
+                break;
+            default:
+                System.out.println("kamu tidak  memilihh salah satunya. kamu menjalani takdir mu sebaik munngkin hinngga akhir hayat kamu tidak pernah menyesall");
+                break;
+        }
+        ip.close();
+    }
+}
