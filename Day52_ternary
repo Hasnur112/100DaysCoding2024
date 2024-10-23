@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Day52 {
+    public static void main(String[] args) {
+        Scanner ip = new Scanner(System.in);
+        System.out.println("Pilih diantara ke2 ini keseharian kamu ....");
+        System.out.println("(1) Bekerja keras, berpikir kritis,mengisi waktu luang dengan hal hal yang lebih bermanfaat dan positif");
+        System.out.println("(2) Lebih sering menghabiskan waktu dengan bermain game dan hal negatif lainnya");
+        System.out.print("Masukkan jawabanmu\t: ");
+        int a = ip.nextInt();
+        
+        String b = (a == 1) ? "Anda sudah berada dijalan yang benar teruskan" :
+                  (a == 2) ? "Kamu harus merubah kebiasaan buruk mu, dan mulailah berubah dari sekarang, agar tidak  memiliki penyesalan dikemudian hari" :
+                  "inputan tidak valid";
+            
+        System.out.println(b);
+        
+        ip.close();
+    }
+}
