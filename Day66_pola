@@ -1,0 +1,30 @@
+public class Day66 {
+    public static void main(String[] args) {
+        // Persegi
+        int n = 5; 
+        int i = 0;
+
+        System.out.println("Pola Persegi:");
+        while (i < n) {
+            int j = 0;
+            while (j < n) {
+                System.out.print("* ");
+                j++;
+            }
+            System.out.println();
+            i++;
+        }
+
+        // Persegi panjang
+        int panjang = 8; 
+        int lebar = 4;   
+
+        System.out.println("\nPola Persegi Panjang:");
+        for (int i2 = 0; i2 < lebar; i2++) {
+            for (int j = 0; j < panjang; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
