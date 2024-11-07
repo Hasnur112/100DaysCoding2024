@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Day66 {
+
+    public static void ak(int jumlah) {
+        for (int i = 1; i <= jumlah; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan batas angka: ");
+        int jumlah = scanner.nextInt();
+        ak(jumlah);
+        scanner.close();
+    }
+}
