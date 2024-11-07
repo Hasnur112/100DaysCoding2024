@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day66 {
+public class Day67 {
 
     public static void ak(int jumlah) {
         for (int i = 1; i <= jumlah; i++) {
@@ -9,10 +9,10 @@ public class Day66 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner ip = new Scanner(System.in);
         System.out.print("Masukkan batas angka: ");
-        int jumlah = scanner.nextInt();
+        int jumlah = ip.nextInt();
         ak(jumlah);
-        scanner.close();
+        ip.close();
     }
 }
