@@ -7,7 +7,7 @@ public class day77 {
         
         if(f.equalsIgnoreCase("Iron Man")){
             System.out.println("kita memiliki selara yang sama");
-        }else if(f.equalsIgnoreCase(f)){
+        }else if(f.equals(f)){
             System.out.println(f+" memang bagus tapi saya lebih suka Iron Man");
         }else{
             System.out.println("String tdk valid");
