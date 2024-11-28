@@ -10,7 +10,6 @@ public class day88 {
         double tinggi = ip.nextDouble();
         
         double volume = Math.PI * jari*jari*tinggi;
-        double p = Math.round(volume);
         System.out.printf("Hasil: %.2f m kubik",volume);
     }
 }
