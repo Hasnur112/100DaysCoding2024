@@ -10,7 +10,7 @@ public class day100 {
         LocalTime sekarang = LocalTime.now();
         String salam;
 
-        if (sekarang.isBefore(LocalTime.now())) {
+        if (sekarang.isBefore(LocalTime.of(12, 0))) {
             salam = "Selamat pagi";
         } else if (sekarang.isBefore(LocalTime.of(17, 0))) {
             salam = "Selamat siang";
